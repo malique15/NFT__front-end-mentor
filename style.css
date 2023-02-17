@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 * {
     padding: 0%;
     margin: 0%;
@@ -10,34 +12,57 @@ body{
     place-items: center;
     background-color: hsl(217, 54%, 11%);
     max-height: 100vh;
+    font-family: 'Outfit' , sans-serif;
+    margin-top: 4rem;
 }
 
 .nft-card{
     width: 25rem;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 1rem;
-    background-color: aquamarine;
+    background-color: hsl(216, 50%, 16%);
 }
 
 .nft-card__image .equilibrium-img {
     border-radius: .5rem;
-    width: 80%;
+    width: 100%;
 }
 
 .nft-card__content h1{
-    font-size: 2rem;
+    font-size: 2.3em;
     color: #fff;
 }
 
 .nft-card__content .nft-details {
     font-size: 1.2rem;
     color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.nft-card__bidding-details,.eth-pricing {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.nft-card__bidding-details .eth-pricing p{
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
 }
 
 .nft-card__bidding-details {
-    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
 }
 
+.nft-card__bidding-details img{
+    width: 1rem;
+}
+
+.nft-card__bidding-details .bidding-time {
+    color: hsl(215, 51%, 70%);
+
+}
 
 .nft-card__creator {
     display: flex;
@@ -46,5 +71,36 @@ body{
 }
 
 .nft-card__creator img{
-    width: 10%;
+    width: 11%;
+    border: #fff 1px solid;
+    border-radius: 50%;
+}
+
+.nft-card__creator p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+ .nft-card__creator span {
+    color: #fff;
+}
+
+
+hr {
+    margin-top: 1.5rem;
+    color: hsl(215, 51%, 70%);
+    opacity: 0.3;
+    height: .5px;
+}
+
+.mg-t1 {
+    margin-top: 1rem;
+}
+
+.mg-t2 {
+    margin-top: 1.5rem;
+}
+
+.mg-b1 {
+    margin-bottom: 1rem;
 }
