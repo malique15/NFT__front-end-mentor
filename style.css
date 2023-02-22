@@ -11,9 +11,8 @@ body {
     display: grid;
     place-items: center;
     background-color: hsl(217, 54%, 11%);
-    max-height: 100vh;
+    /* max-height: 100vh; */
     font-family: 'Outfit', sans-serif;
-    margin-top: 4rem;
 }
 
 .nft-card {
@@ -21,6 +20,7 @@ body {
     padding: 1.5rem;
     border-radius: 1rem;
     background-color: hsl(216, 50%, 16%);
+    margin: 4rem 0rem;
 }
 
 .nft-card__image .equilibrium-img {
@@ -106,6 +106,3 @@ hr {
 .mg-b1 {
     margin-bottom: 1rem;
 }
-
-/* Procrastinated for 5 days wanted to update my git hub*/
-/* Procrastinated for 5 days wanted to update my git hub*/
