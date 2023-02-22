@@ -119,10 +119,27 @@ hr {
     .nft-card {
         width: 20rem;
         padding: 1.2rem;
+
+    }
+
+    .nft-card img {
+        cursor: pointer;
+        z-index: -2;
+    }
+
+    .nft-card img:hover {
+        background-color: rgba(0, 255, 247, 0.2);
+        z-index: 2;
     }
 
     .nft-card__content h1 {
         font-size: 1.9rem;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .nft-card__content h1:hover {
+        color: hsl(178, 100%, 50%);
     }
 
     .nft-card__content .nft-details {
@@ -139,5 +156,14 @@ hr {
 
     .nft-card__creator p {
         font-size: 1rem;
+    }
+
+    .nft-card__creator span {
+        cursor: pointer;
+
+    }
+
+    .nft-card__creator span:hover {
+        color: hsl(178, 100%, 50%);
     }
 }
